@@ -7,6 +7,7 @@
 - [Lancement des serveurs](#p2)
 - [Création de la backup](#p3) 
     - [Prérequis](#p3.1)
+    - [Récupération du script](#p3.2)
 
 ## Prérequis <a name="p0"></a>
 
@@ -36,7 +37,29 @@ créer le fichier "/srv/save":
 ```bash
 mkdir /srv/save
 ```
-mettre le fichier [save.sh](./backup/save.sh) dans le dossier "/srv/save".
+
+Mettre le fichier [save.sh](./backup/save.sh) dans le dossier "/srv/save".
+
+Modifier dans le fichier la ligne du serveur en mettant le nom de l'utilisateur, l'adresse ip du serveur dont on fait la copie:
+```bash
+server="<user@ip>:/minecraft"
+```
+
+### Récupération du service et du timer qui lance la backup <a name="p3.3"></a>
+
+Mettre le fichier [backup.service](./backup/backup.service) et le fichier [backup.timer](./backup/backup.timer) dans le dossier "/etc/systemd/system/"
+
+Pour modifier le temps entre les backup il faut modifier cette ligne dans [backup.timer](./backup/backup.timer) :
+```
+OnCalendar=hourly
+```
+
+Pour démarrer le service, faites les commandes suivante :
+```bash
+sudo systemctl daemon-reload
+sudo systemctl start backup.timer
+```
+
 
 
 

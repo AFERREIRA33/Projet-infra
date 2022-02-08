@@ -5,7 +5,7 @@ archive_path="${backup_path}/mc_${file_date}"
 file_path="${backup_path}/mc/"
 log_path="/var/log/backup"
 log_file="${log_path}/backup.log"
-server="<user@ip>:<sever path file>"
+server="<user@ip>:/minecraft"
 line="Backup ${archive_path} created successfully."
 line_error="[ ERROR ] Backup ${archive_path} was not created!"
 

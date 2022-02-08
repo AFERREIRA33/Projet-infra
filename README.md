@@ -1,4 +1,4 @@
 # Serveur minecraft
 
-[Documentation d'installation complète](./docu_srv.md)
-[schéma](./schema.jpg)
+- [Documentation d'installation complète](./docu_srv.md)
+- [Schéma](./schéma)
