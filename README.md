@@ -1,3 +1,4 @@
 # Serveur minecraft
 
-personne n'a rien fait pour le moment
+[Documentation d'installation complète](./docu_srv.md)
+[schéma](./schema.jpg)
