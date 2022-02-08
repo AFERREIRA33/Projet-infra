@@ -2,7 +2,7 @@
 Description=create backup of minecraft server
 
 [Service]
-ExecStart=/usr/bin/bash /srv/backup/save.sh
+ExecStart=/usr/bin/bash /srv/save/save.sh
 Type=oneshot
 
 [Install]
