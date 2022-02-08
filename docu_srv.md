@@ -11,10 +11,10 @@
 
 ## Prérequis <a name="p0"></a>
 
-Machines : 2 (serveur / backup)
-Go de RAM :
-CPU :
-OS : Rocky linux
+Machines : 2 (serveur / backup)  
+Go de RAM :  
+CPU :  
+OS : Rocky linux  
 
 ## Création des serveurs <a name="p1"></a>
 
