@@ -1,4 +1,4 @@
-# Documentation d'instalation des serveurs minecrafts
+# Documentation d'instalation des serveurs minecraft
 
 ## Sommaire
 
