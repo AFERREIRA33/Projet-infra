@@ -1,0 +1,9 @@
+[Unit]
+Description=create backup of minecraft server
+
+[Service]
+ExecStart=/usr/bin/bash /srv/backup/save.sh
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
