@@ -36,7 +36,7 @@ créer le fichier "/srv/save":
 ```bash
 mkdir /srv/save
 ```
-mettre le fichier [save.sh](./backub/save.sh) dans le dossier "/srv/save".
+mettre le fichier [save.sh](./backup/save.sh) dans le dossier "/srv/save".
 
 
 
