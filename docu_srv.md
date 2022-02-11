@@ -24,9 +24,9 @@ OS : Rocky linux
 ### Récupération des scripts <a name="p1.1"></a>
 Pour installer un nouveau serveur Minecraft commencer par télécharger les scripts suivants :
 
-[script_serveur.sh](.creation_serveur/script_serveur.sh)
+[script_serveur.sh](creation_serveur/script_serveur.sh)
 
-[serveur.service](.creation_serveur/serveur.service)
+[serveur.service](creation_serveur/serveur.service)
 
 ### Initialisation <a name="p1.2"></a>
 A présent lancer le service une première fois à l’aide de ses commandes :
