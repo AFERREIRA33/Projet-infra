@@ -42,7 +42,7 @@ Une fois cela fait patienter quelques instants. Un dossier « /Minecraft » devr
 
 ### Création d’un serveur Minecraft <a name="p1.3"></a>
 A partir de maintenant vous pouvez répéter les opérations suivantes autant de fois que nécessaire pour chaque serveur supplémentaire que vous désirez crée.
-Rendez-vous dans le dossier : « /Minecraft/Minecraftinput » vous devrez y trouver un fichier nommé : « servername », se fichier sert à indiquer au programme les noms que vous voulez donnée à vos serveurs Minecraft. Ouvrez se fichier avec l’éditeur de votre choix et indiquer le nom voulu pour vos serveur (un nom par ligne).
+Rendez-vous dans le dossier : « /Minecraft » vous devrez y trouver un fichier nommé : « inputMC », se fichier sert à indiquer au programme les noms que vous voulez donnée à vos serveurs Minecraft. Ouvrez se fichier avec l’éditeur de votre choix et indiquer le nom voulu pour vos serveur (un nom par ligne).
 Quitter ensuite se fichier et relancer le service avec la commande suivante :
 ```
 sudo systemctl start serveur.service
@@ -82,7 +82,7 @@ installer rsync :
 sudoyum -y install ssh rsync
 sudo dnf install ssh rsync
 ```
-il faut effectuer un échange de clé ssh depuis la backup vers le server ssh avec le user qui gèrera la backup d'un coté et le seerveur de l'autre.
+il faut effectuer un échange de clé ssh depuis la backup vers le server ssh avec le user qui gèrera la backup d'un côté et le serveur de l'autre.
 
 ### Récupération du script <a name="p3.2"></a>
 

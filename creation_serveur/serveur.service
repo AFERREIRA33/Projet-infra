@@ -1,4 +1,3 @@
-service :cat etc/systemd/system/MCserv.service
 [Unit]
 Description=Service d'automatisation de serveur Minecraft
 
@@ -7,6 +6,3 @@ ExecStart=bash /MC_server_install.sh
 
 [Install]
 WantedBy=multi-user.target
-
-
-sudo systemctl daemon-reload
