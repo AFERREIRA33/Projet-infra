@@ -8,6 +8,9 @@
     - [Initialisation](#p1.2)
     - [Création d’un serveur Minecraft](#p1.3)
 - [Lancement et arrêt des serveurs](#p2)
+    -[Récupération des scripts](#p2.1)
+    -[Lancer un serveur](#p2.2)
+    -[Arreter un serveur](#p2.3)
 - [Création de la backup](#p3) 
     - [Prérequis](#p3.1)
     - [Récupération du script](#p3.2)
@@ -53,6 +56,22 @@ Vérifier ensuite que votre serveur est bien installé en vous rendant dans le f
 
 
 ## Lancement et arrêt des serveurs <a name="p2"></a>
+
+### Récupération des scripts <a name="p2.1"></a>
+
+Pour lancer et arreter vos serveur Minecraft commencer par télécharger les scripts suivants :
+
+[script_start.sh](creation_serveur/script_start.sh)
+
+[script_stop.sh](creation_serveur/script_stop.sh)
+
+### Lancer un serveur <a name="p2.2"></a>
+
+
+
+### Arreter un serveur <a name="p2.3"></a>
+
+
 
 ## Création du service de backup <a name="p3"></a>
 
