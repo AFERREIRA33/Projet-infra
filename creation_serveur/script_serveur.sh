@@ -19,7 +19,7 @@ else
         dnf -y install wget
 fi
 
-if [ -d/tmp/tmux-1000 ]
+if [ -d /tmp/tmux-1000 ]
 then
         echo "tmux is already install"
 else
