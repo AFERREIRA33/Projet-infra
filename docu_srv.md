@@ -4,6 +4,9 @@
 
 - [Prérequis](#p0)
 - [Création des serveurs](#p1)
+    - [Récupération des scripts](#p1.1)
+    - [Initialisation](#p1.2)
+    - [Création d’un serveur Minecraft](#p1.3)
 - [Lancement des serveurs](#p2)
 - [Création de la backup](#p3) 
     - [Prérequis](#p3.1)
@@ -18,12 +21,12 @@ OS : Rocky linux
 
 ## Création des serveurs <a name="p1"></a>
 
-### Récupération des scripts <a name="p2.1"></a>
+### Récupération des scripts <a name="p1.1"></a>
 Pour installer un nouveau serveur Minecraft commencer par télécharger les scripts suivants :
 [script_serveur.sh](. creation_serveur/script_serveur.sh)
 [serveur.service](. creation_serveur/serveur.service)
 
-### Initialisation <a name="p2.2"></a>
+### Initialisation <a name="p1.2"></a>
 A présent lancer le service une première fois à l’aide de ses commandes :
 ```
 sudo systemctl daemon-reload
@@ -33,7 +36,7 @@ sudo systemctl start serveur.service
 
 Une fois cela fait patienter quelques instants. Un dossier « /Minecraft » devrait avoir été crée à la racine si c’est le cas c’est que tout s’est bien passée et que le script c’est correctement initialiser.
 
-### Création d’un serveur Minecraft <a name="p2.3"></a>
+### Création d’un serveur Minecraft <a name="p1.3"></a>
 A partir de maintenant vous pouvez répéter les opérations suivantes autant de fois que nécessaire pour chaque serveur supplémentaire que vous désirez crée.
 Rendez-vous dans le dossier : « /Minecraft/Minecraftinput » vous devrez y trouver un fichier nommé : « servername », se fichier sert à indiquer au programme les noms que vous voulez donnée à vos serveurs Minecraft. Ouvrez se fichier avec l’éditeur de votre choix et indiquer le nom voulu pour vos serveur (un nom par ligne).
 Quitter ensuite se fichier et relancer le service avec la commande suivante :
