@@ -7,7 +7,7 @@
     - [Récupération des scripts](#p1.1)
     - [Initialisation](#p1.2)
     - [Création d’un serveur Minecraft](#p1.3)
-- [Lancement des serveurs](#p2)
+- [Lancement et arrêt des serveurs](#p2)
 - [Création de la backup](#p3) 
     - [Prérequis](#p3.1)
     - [Récupération du script](#p3.2)
@@ -52,7 +52,7 @@ Patientez ensuite jusqu’as ce que le service soit arrêter (cette opération p
 Vérifier ensuite que votre serveur est bien installé en vous rendant dans le fichier des logs d’installation « "/var/log/MC/serveurMC.log" » vous devriez voir dedans une ligne avec la date, le nom de votre serveur et son port.
 
 
-## Lancement des serveurs <a name="p2"></a>
+## Lancement et arrêt des serveurs <a name="p2"></a>
 
 ## Création du service de backup <a name="p3"></a>
 
