@@ -1,0 +1,8 @@
+[Unit]
+Description=Service d'automatisation de serveur Minecraft
+
+[Service]
+ExecStart=bash /MC_server_install.sh
+
+[Install]
+WantedBy=multi-user.target
