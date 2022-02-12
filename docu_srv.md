@@ -26,7 +26,6 @@ OS : Rocky linux
 
 installer rsync :
 ```bash
-sudoyum -y install ssh rsync
 sudo dnf install ssh rsync
 ```
 il faut effectuer un échange de clé ssh depuis la backup vers le server ssh avec le user qui gèrera la backup d'un coté et le seerveur de l'autre.
