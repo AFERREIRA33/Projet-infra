@@ -18,8 +18,7 @@
 ## Prérequis <a name="p0"></a>
 
 Machines : 2 (serveur / backup)  
-Go de RAM :  
-CPU :  
+Go de RAM : 2GB(minimum) pour un serveur minecraft 
 OS : Rocky linux  
 
 ## Création des serveurs <a name="p1"></a>
