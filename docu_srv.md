@@ -89,13 +89,19 @@ bash script_start.sh -h
 Le script script_stop.sh peut servir à éteindre soit tous les serveurs disponible en ne mettant rien en paramètre, soit éteindre un serveur en particulier.
 
 La commande pour lancer le script et éteindre tous les serveurs est:
-```bash script_start.sh```
+```
+bash script_start.sh
+```
 
 La commande pour lancer le script et éteindre un serveur est:
-```bash script_start.sh -s {NOM_DU_SERVEUR}```
+```
+bash script_start.sh -s {NOM_DU_SERVEUR}
+```
 
 Pour afficher toutes les commandes disponibles:
-```bash script_start.sh -h```
+```
+bash script_start.sh -h
+```
 
 ## Création du service de backup <a name="p3"></a>
 
