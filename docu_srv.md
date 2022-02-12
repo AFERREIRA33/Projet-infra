@@ -19,7 +19,7 @@
 
 Machines : 2 (serveur / backup)  
 
-Go de RAM : 2GB(minimum) pour un serveur minecraft
+Go de RAM : 3GB(minimum) pour un serveur minecraft
 
 OS : Rocky linux  
 
