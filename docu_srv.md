@@ -160,15 +160,15 @@ bash Monitoring.sh -h
 
 Les options disponibles sont:
 
--l      Affiche les ports en écoute
+```-l```      Affiche les ports en écoute
 
--m      Affiche l'utilisation de la RAM
+```-m```     Affiche l'utilisation de la RAM
 
--c      Affiche l'utilisation du CPU
+```-c```     Affiche l'utilisation du CPU
 
--f      Affiche le status du Pare-feu
+```-f```      Affiche le status du Pare-feu
 
--d      Affiche l'utilisation du disque
+```-d```      Affiche l'utilisation du disque
 
 
 ## Modification Serveur <a name="p5"></a>
