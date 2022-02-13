@@ -14,7 +14,7 @@
 - [Création de la backup](#p3) 
     - [Prérequis](#p3.1)
     - [Récupération du script](#p3.2)
-- [Monitoring] (#p4)
+- [Monitoring](#p4)
 - [Modification Serveur](#p5)
     - [Ajouter des admins](#p5.1)
     - [Choisir le serveur prioritaire](#p5.2)
