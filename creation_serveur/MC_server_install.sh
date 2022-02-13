@@ -110,6 +110,7 @@ cat /Minecraft/inputMC | while read -r lineNAME; do
                         kill $kill
                         sed -i 's/ip_forward: false/ip_forward: true/g' /Minecraft/Server/BungeeCord/config.yml
                         sed -i 's/  host: 0.0.0.0:25577/  host: 0.0.0.0:25565/g' /Minecraft/Server/BungeeCord/config.yml
+                        sed -i 's/  tab_list: GLOBAL_PING/  tab_list: SERVER/g' /Minecraft/Server/BungeeCord/config.yml
                 fi
                 mkdir /Minecraft/Server/$name
                 echo "eula=true" > /Minecraft/Server/$name/eula.txt

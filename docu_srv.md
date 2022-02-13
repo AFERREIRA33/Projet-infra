@@ -15,6 +15,9 @@
     - [Prérequis](#p3.1)
     - [Récupération du script](#p3.2)
 - [Monitoring] (#p4)
+- [Modification Serveur](#p5)
+    - [Ajouter des admins](#p5.1)
+    - [Choisir le serveur prioritaire](#p5.2)
 
 ## Prérequis <a name="p0"></a>
 
@@ -163,5 +166,37 @@ Les options disponibles sont:
 -f      Affiche le status du Pare-feu
 -d      Affiche l'utilisation du disque
 
+
+## Modification Serveur <a name="p5"></a>
+
+Des Modifications peuvent être aussi faite dans le fichier " /Minecraft/Serveur/BungeeCord/config.yml "
+
+### Ajouter des admins <a name="p5.1"></a>
+
+Pour cela il suffit de modifier la ligne ci-dessous en remplaçant md_5 par les pseudos minecraft des joueurs.
+ 
+```
+groups:
+  md_5:
+  - admin
+```
+
+exemple:
+```
+groups:
+  toto:
+  tata:
+  - admin
+```
+
+
+### Choisir le serveur prioritaire <a name="p5.2"></a>
+
+Pour choisir quelle serveur sera prioritaire pour la première connexion il faut modifier la ligne ci-dessous en remplaçant lobby par le nom du dossier de votre serveur.
+
+```
+priorities:
+ - lobby
+```
 
 
