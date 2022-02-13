@@ -85,7 +85,7 @@ Pour afficher toutes les commandes disponibles:
 bash script_start.sh -h
 ```
 
-### Arreter un serveur <a name="p2.3"></a>
+### Arrêter un serveur <a name="p2.3"></a>
 
 Le script script_stop.sh peut servir à éteindre soit tous les serveurs disponible en ne mettant rien en paramètre, soit éteindre un serveur en particulier.
 
