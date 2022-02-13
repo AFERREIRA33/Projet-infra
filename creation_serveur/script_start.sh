@@ -39,6 +39,6 @@ if [ "$opt" = true ]; then
         done
 elif [ "$opt" = false ]; then
         cd /Minecraft/Server/$name
-        tmux new-session -d -s $name java -Xmx1024M -Xms1024M -jar $name.jar nogui
+        java -Xmx1024M -Xms1024M -jar $name.jar nogui
         cd /
 fi
