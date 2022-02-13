@@ -161,9 +161,13 @@ bash Monitoring.sh -h
 Les options disponibles sont:
 
 -l      Affiche les ports en écoute
+
 -m      Affiche l'utilisation de la RAM
+
 -c      Affiche l'utilisation du CPU
+
 -f      Affiche le status du Pare-feu
+
 -d      Affiche l'utilisation du disque
 
 
