@@ -19,7 +19,7 @@
 
 Machines : 2 (serveur / backup)  
 
-Go de RAM : 2GB(minimum) pour un serveur minecraft
+Go de RAM : 3GB(minimum) pour un serveur minecraft
 
 OS : Rocky linux  
 
@@ -110,7 +110,6 @@ bash script_start.sh -h
 
 installer rsync :
 ```bash
-sudoyum -y install ssh rsync
 sudo dnf install ssh rsync
 ```
 il faut effectuer un échange de clé ssh depuis la backup vers le server ssh avec le user qui gèrera la backup d'un côté et le serveur de l'autre.
