@@ -29,7 +29,7 @@ while getopts ":hs:" option; do
 done
 
 if [ "$opt" = true ]; then
-        killserv=$(ps -ef | grep uwu2 | cut -c10-16 | head -1)
+        killserv=$(ps -eo %p%c | grep java |cut -d"j" -f1)
         kill -KILL $killserv
 elif [ "$opt" = false ]; then
         killserv=$(ps -ef | grep "$name" | cut -c10-16 | head -1)

@@ -14,6 +14,7 @@
 - [Création de la backup](#p3) 
     - [Prérequis](#p3.1)
     - [Récupération du script](#p3.2)
+- [Monitoring] (#p4)
 
 ## Prérequis <a name="p0"></a>
 
@@ -143,6 +144,24 @@ sudo systemctl daemon-reload
 sudo systemctl start backup.timer
 ```
 
+## Monitoring <a name="p4"></a>
+
+[Monitoring.sh](Monitoring/Monitoring.sh)
+
+Le script Monitoring.sh permet de gérer en continue différente information de la machine comme l'utilisation du cpu ou de la mémoire RAM.
+
+La liste des commandes disponibles pour ce script sont visible via la commande:
+```
+bash Monitoring.sh -h
+```
+
+Les options disponibles sont:
+
+-l      Affiche les ports en écoute
+-m      Affiche l'utilisation de la RAM
+-c      Affiche l'utilisation du CPU
+-f      Affiche le status du Pare-feu
+-d      Affiche l'utilisation du disque
 
 
 

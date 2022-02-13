@@ -3,9 +3,8 @@
 opt=true
 
 usage() {
-        echo "Usage : MC_Start.sh [OPTION] {SERVER_NAME}
+        echo "Usage : MC_Start.sh [OPTION]
         Start the chosen server or all of them
-        Add no  [OPTION] to start all of them
 
         -s      Start one particular server
         -h      Print help message (this message)"
@@ -29,12 +28,11 @@ while getopts ":hs:" option; do
         esac
 done
 
-
 if [ "$opt" = true ]; then
         cd /Minecraft/Server/BungeeCord
         tmux new-session -d -s bungeecord java -Xmx512M -Xms512M -jar BungeeCord.jar
         cd /
-        cat /Minecraft/servername | while read -r line; do
+        cat /Minecraft/Minecraftinput/servername | while read -r line; do
                 cd /Minecraft/Server/$line
                 tmux new-session -d -s $line java -Xmx1024M -Xms1024M -jar $line.jar nogui
                 cd /
