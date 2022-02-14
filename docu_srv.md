@@ -145,6 +145,7 @@ Pour démarrer le service, faites les commandes suivante :
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl start backup.timer
+sudo systemctl enable backup.timer
 ```
 
 ## Monitoring <a name="p4"></a>
