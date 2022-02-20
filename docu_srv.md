@@ -74,11 +74,6 @@ Pour lancer et arreter vos serveur Minecraft commencer par télécharger les scr
 
 Le script script_start.sh peut servir à lancer soit tous les serveurs disponible en ne mettant rien en paramètre, soit lancer un serveur en particulier.
 
-La commande pour lancer le script et allumer tous les serveurs est:
-```
-bash script_start.sh
-```
-
 La commande pour lancer le script et allumer un serveur est:
 ```
 bash script_start.sh -s {NOM_DU_SERVEUR}
